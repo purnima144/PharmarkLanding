@@ -32,23 +32,38 @@ const Hero = () => {
             >
               {subtitle}
             </p>
+
+            <p>
             <button
               className='btn btn-primary mb-8 xl:mb-0'
               data-aos='fade-down'
+              onClick={() => {
+                window.location.href="http://www.google.com"
+              }}
               data-aos-delay='600'
+              
             >
-              {btnText}
+            {btnText}
             </button>
+            </p>
+            
             <p>
+            
             <button
               className='btn btn-primary mt-8 mb-8 xl:mb-0'
               data-aos='fade-down'
+              type='submit'
+              onClick={() => {
+                window.location.href="http://www.google.com"
+              }}
               data-aos-delay='600'
+
               
             >
               {btnText1}
             </button>
             </p>
+           
             
           </div>
           {/* image */}

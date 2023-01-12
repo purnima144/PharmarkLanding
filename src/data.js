@@ -33,11 +33,11 @@ export const navigationData = [
   },
   {
     name: 'About',
-    href: '#',
+    href: '#about',
   },
   {
     name: 'Team',
-    href: '#',
+    href: '#team',
   },
 ];
 
@@ -52,7 +52,7 @@ export const heroData = {
 
 export const aboutData = {
   image: AboutImg,
-  title: '"Know a little more About us" ',
+  title: '"Know a little more Pharmark" ',
   subtitle:
     'An LSTM model that accepts strings as input parameters from the End users, generates and  displays a list of derived names which are filtered names based on the viability and authenticity of the generated names through the provided rules. ',
 };

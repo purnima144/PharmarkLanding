@@ -7,7 +7,7 @@ const About = () => {
   // destructure about
   const { image, title, subtitle } = aboutData;
   return (
-    <section
+    <section id='about'
       className='my-[30px] xl:mt-[100px]'
       data-aos='fade-up'
       data-aos-offset='350'

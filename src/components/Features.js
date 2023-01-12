@@ -3,14 +3,12 @@ import React from 'react';
 // import features data
 import { featuresData } from '../data';
 
-// import icons
-import { BsArrowRight } from 'react-icons/bs';
 
 const Features = () => {
   // destructure features data
   const { title, subtitle, list } = featuresData;
   return (
-    <section id="feature" className='my-[70px] xl:my-[150px]'>
+    <section id='team' className='my-[70px] xl:my-[150px]'>
       <div className='container mx-auto'>
         {/* text */}
         <div className='text-center'>
