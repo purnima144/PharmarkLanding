@@ -8,7 +8,7 @@ import Header from './Header';
 
 const Hero = () => {
   // destructure hero
-  const { title, subtitle, btnText, image } = heroData;
+  const { title, subtitle, btnText, btnText1, image } = heroData;
   return (
     <section className='lg:h-[900px] py-12'>
       <Header />
@@ -39,12 +39,23 @@ const Hero = () => {
             >
               {btnText}
             </button>
+            <p>
+            <button
+              className='btn btn-primary mt-8 mb-8 xl:mb-0'
+              data-aos='fade-down'
+              data-aos-delay='600'
+              
+            >
+              {btnText1}
+            </button>
+            </p>
+            
           </div>
           {/* image */}
           <div
             className='xl:absolute xl:-right-12 xl:bottom-16 w-[80%] -z-10'
             data-aos='fade-up'
-            data-aos-delay='700'
+            data-aos-delay='600'
           >
             <img src={image} alt=''/>
           </div>

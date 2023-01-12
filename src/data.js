@@ -45,7 +45,8 @@ export const heroData = {
   title: `Drug Name Generator`,
   subtitle:
     'Generate brandable drug names using artificial intelligence.',
-  btnText: 'Know more',
+  btnText: 'Get started',
+  btnText1: 'View recent suggestions',
   image: HeroImage,
 };
 
