@@ -38,7 +38,7 @@ const Hero = () => {
               className='btn btn-primary mb-8 xl:mb-0'
               data-aos='fade-down'
               onClick={() => {
-                window.location.href="http://www.google.com"
+                window.location.href="http://localhost:3000/input"
               }}
               data-aos-delay='600'
               
@@ -54,7 +54,7 @@ const Hero = () => {
               data-aos='fade-down'
               type='submit'
               onClick={() => {
-                window.location.href="http://www.google.com"
+                window.location.href="http://localhost:8000/viewRooms"
               }}
               data-aos-delay='600'
 
@@ -68,9 +68,9 @@ const Hero = () => {
           </div>
           {/* image */}
           <div
-            className='xl:absolute xl:-right-12 xl:bottom-16 w-[80%] -z-10'
+            className='xl:absolute xl:-right-20 xl:bottom-100 w-[70%] -z-10'
             data-aos='fade-up'
-            data-aos-delay='600'
+            data-aos-delay='500'
           >
             <img src={image} alt=''/>
           </div>
